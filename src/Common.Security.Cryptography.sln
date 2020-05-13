@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common.Security.Cryptography", "Common.Security.Cryptography.csproj", "{23B18A40-977D-4008-9AE9-03F3D9AD8083}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common.Security.Cryptography.Tests", "..\Common.Security.Cryptography.Tests\Common.Security.Cryptography.Tests.csproj", "{54CB5C7C-6EC4-4440-BF6A-529DCC5097D6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{749B2410-AA81-4F3D-8F7C-4E14ABF2F8B0}"
+	ProjectSection(SolutionItems) = preProject
+		Common.Security.Cryptography.vsmdi = Common.Security.Cryptography.vsmdi
+		Local.testsettings = Local.testsettings
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = Common.Security.Cryptography.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{23B18A40-977D-4008-9AE9-03F3D9AD8083}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23B18A40-977D-4008-9AE9-03F3D9AD8083}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23B18A40-977D-4008-9AE9-03F3D9AD8083}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23B18A40-977D-4008-9AE9-03F3D9AD8083}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54CB5C7C-6EC4-4440-BF6A-529DCC5097D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54CB5C7C-6EC4-4440-BF6A-529DCC5097D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54CB5C7C-6EC4-4440-BF6A-529DCC5097D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54CB5C7C-6EC4-4440-BF6A-529DCC5097D6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
